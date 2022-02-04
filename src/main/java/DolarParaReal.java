@@ -19,6 +19,6 @@ public class DolarParaReal {
     }
 
     public double calcularNota() {
-        return Cambio.calcularDinheiro(this.valor, this.taxa);
+        return Cambio.calcularDinheiro(this.valor, this.taxa * this.valor);
     }
 }

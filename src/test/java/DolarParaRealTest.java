@@ -10,10 +10,10 @@ class DolarParaRealTest {
     @Test
     void deveRetornarValorConvertido() {
         DolarParaReal dolarReal = new DolarParaReal();
-        dolarReal.setValor(1.0);
-        dolarReal.setTaxa(0.4);
+        dolarReal.setValor(5.0);
+        dolarReal.setTaxa(0.1);
 
-        assertEquals(7.4, Math.round(dolarReal.calcularNota()*100.0)/100.0);
+        assertEquals(25.5  , Math.round(dolarReal.calcularNota()*100.0)/100.0);
     }
 
 

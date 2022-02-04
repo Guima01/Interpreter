@@ -1,6 +1,6 @@
 public class Cambio {
 
-    public static String formula = "dolar * 7 + taxa";
+    public static String formula = "dolar * 5.2 - taxa";
 
     public static double calcularDinheiro(double dinheiro1, double dinheiro2) {
         String expressao;
